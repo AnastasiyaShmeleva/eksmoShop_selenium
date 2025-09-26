@@ -47,11 +47,11 @@ class CheckoutPage(Base):
         print('Click email button')
 
     def input_email(self):
-        self.get_email().send_keys('shmeleva.nastya98@mail.ru')
+        self.get_email().send_keys('****@mail.ru')
         print('Input email')
 
     def input_password(self):
-        self.get_password().send_keys('2WFQuB@AmG9cFrz')
+        self.get_password().send_keys('****')
         print('Input password')
 
     def click_login_button(self):
